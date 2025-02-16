@@ -13,9 +13,15 @@ The Lemon Leaf Disease Classification App is an innovative web application power
 
 With an accuracy rate of 96.8%, the app utilizes deep learning to analyze leaf images, providing quick and accurate disease identification.
 
+Dataset used: https://www.kaggle.com/datasets/mahmoudshaheen1134/lemon-leaf-disease-dataset-lldd
+
 ## Benefits of the App
 
 This tool provides a valuable service to the agriculture sector by:
 
 * Enabling Early Disease Detection: Early identification of plant diseases allows for timely intervention, reducing the spread of harmful conditions and saving crops.
 * Improving Crop Management: Farmers and researchers can take proactive measures to treat or manage diseases, contributing to healthier plants and improved yields.
+
+
+## Frontend
+
