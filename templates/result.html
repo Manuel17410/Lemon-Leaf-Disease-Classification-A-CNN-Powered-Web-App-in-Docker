@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #A3D9A5, #FFF5A5); /* Green gradient background */
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .result-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .result {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .healthy {
+            color: #4CAF50;
+        }
+
+        .sick {
+            color: #FF5733;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+
+        .prediction-header {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .prediction-result {
+            font-size: 1.5em;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .result-text {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <div class="result-container">
+        <div class="prediction-header">
+            The predicted class for your lemon tree leaf is:
+        </div>
+        <div class="prediction-result">
+            <span class="{{ 'healthy' if prediction == 'Healthy Leaf' else 'sick' }}">
+                {{ prediction }}
+            </span>
+        </div>
+        <div class="result-text">
+            This result is based on the leaf image you provided. If you need further assistance, feel free to reach out!
+        </div>
+        <a href="/">Go back</a>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
