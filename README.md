@@ -25,5 +25,5 @@ This tool provides a valuable service to the agriculture sector by:
 
 ## Frontend
 
-![Example Image](pics/Lemontreehealthchecker.png)
-![Example Image](pics/predictionresult.png)
+![Example Image](images/Lemontreehealthchecker.png)
+![Example Image](images/predictionresult.png)
